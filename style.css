@@ -1,0 +1,294 @@
+/*
+  Author: Amanda Martel
+  Filename: style.css
+  Description: Website redesign for Brukner Nature Center - Style Sheet. 
+  Date: 3/1/2022
+*/
+
+.mission {
+    background-color:#85ae32b4;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+.events, .col-lg-12, #row1 {
+    background-color: #37461a;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+#date {
+    font-size: 1.0em;
+    font-weight: bold;
+}
+#price {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-top: 25px;
+}
+.row {
+    margin:0px;
+    padding: 10px;
+}
+
+.col-lg-8, .col-lg-4, .col-lg-6 {
+    padding: 25px 0px;
+}
+
+
+/* P CSS */
+
+p {
+    font-family: 'Anek Gujarati';
+    font-size: 18px;
+}
+
+/* Headings CSS */
+h1, h2, h3, h4 {
+    font-family: 'Arima Madurai';
+ 
+}
+h1 {
+    text-shadow: 2px 2px #070707;
+}
+
+#memorial {
+    margin-top: 50px;
+}
+
+/* Quote CSS */
+#quote {
+    font-style: italic;
+}
+
+/* Letter  CSS */
+.script {
+    font-family: 'Dancing Script';
+    font-size: 30px;
+}
+
+.col-lg-8, .col-lg-6 {
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+#supportimg {
+    width: auto;
+    height: auto;
+
+}
+.row align-items-center {
+    align-content: center;
+}
+
+/* Jumbotron CSS */
+
+.jumbotron {
+    background-image: url(/Users/amandamartel/Desktop/AmandaMartelredesign/img/owl.jpg);
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    padding-top: 100px;
+    color: white;
+}
+
+.jumbotron2 {
+    background-image: url(/Users/amandamartel/Desktop/AmandaMartelredesign/img/moose.jpg);
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    padding-top: 100px;
+    color: white;
+    padding-left: 25px;
+}
+
+.jumbotron3 {
+    background-image: url(/Users/amandamartel/Desktop/AmandaMartelredesign/img/fox.jpg);
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    padding-top: 100px;
+    color: white;
+    padding-left: 25px;
+}
+
+.jumbotron4 {
+    background-image: url(/Users/amandamartel/Desktop/AmandaMartelredesign/img/squirrel.jpg);
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    padding-top: 100px;
+    color: white;
+    padding-left: 25px;
+}
+
+
+/* images CSS */
+#facebook {
+    width: 60px !important;
+    height: auto;   
+}
+#youtube {
+    width: 60px !important;
+    height: auto;
+}
+
+#instagram {
+    width: 60px !important;
+    height: auto;
+}
+
+img {
+    height: 90px;
+    width:  auto;
+    padding-right: 15px;
+}
+#logo {
+    height: auto;
+    width: auto;
+}
+.arrow {
+    width: 40px;
+    height: auto;
+}
+
+/* columns & row CSS*/
+
+.col-lg-6 {
+    margin-left: 50px;
+    margin-right: 25px;
+}
+
+.col-lg-3 {
+    margin-top: 25px;
+}
+
+.row {
+    margin-top: 25px
+}
+
+
+/* Media Section */
+.media {
+    background: rgba(133, 174, 50, 0.706);
+    padding: 15px;
+}
+
+.media2 {
+    background: rgba(133, 174, 50, 0.706);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.media3 {
+    background: rgba(133, 174, 50, 0.706);
+    padding: 15px;
+    margin-top: 20px;
+}
+
+
+
+/* Events section CSS */
+.events {
+    margin-top: 50px;
+    background-color: #37461a;
+    color: white;
+    text-align: center;
+}
+
+/* Video CSS */
+.vid {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border: 0px;
+}
+
+/* Footer CSS */
+footer {
+    font-family: 'Anek Gujarati';
+    margin-top: 50px;
+    padding: 25px;
+    height: 170px;
+    background-color: white;
+    text-align: center;
+    color: #37461a;
+}
+
+ul.nav.justify-content-center {
+    margin-bottom: 35px;
+
+}
+
+/* Button CSS */
+.btn {
+    font-family: 'Anek Gujarati';
+    background-color: #6f93a9;
+    border: none;
+}
+
+.btn:hover {
+    font-family: 'Anek Gujarati';
+    background-color: #4f6a7a !important;
+    border: none;
+}
+
+
+/* Body CSS */
+body {
+    background-image: url(/Users/amandamartel/Desktop/AmandaMartelredesign/img/bodybg.jpg);
+    background-size: cover;
+    background-position: bottom;
+    color: white; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0px 30px;
+}
+
+
+/* Mission statement CSS */
+.mission {
+    margin-top: 50px;
+    background-color:rgba(133, 174, 50, 0.706);
+    color: white;
+    padding: 10px;
+    font-style: italic;
+}
+
+/* Carosel CSS */
+.carousel {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 500px;
+}
+
+img.d-block {
+    height: auto;
+    width: auto;
+    margin: auto;
+}
+
+#bnc {
+    color: white;
+    font-size: 22px;
+}
+
+#fund {
+    color: white;
+    font-size: 22px;
+}
